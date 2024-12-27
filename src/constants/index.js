@@ -120,13 +120,26 @@ const experiences = [
     company_name: "Practices in Enabling Technologies (PiET) Lab.",
     icon: starbucks,
     iconBg: "#0000",
-    date: "May 2024 - August 2024",
+    date: "Sep 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "KPM Power",
+    icon: tesla,
+    iconBg: "#000000",
+    date: "Sep 2024 - Dec 2024",
+    points: [
+      "Leading the development of a dynamic UX/UI interface that interfaces directly with a advanced battery management system, prioritizing user experience while delivering actionable insights and operational efficiency.",
+      "Providing comprehensive support to the Development Team through a variety of tasks, including coding, debugging, and optimizing processes to streamline project workflows.",
+      "Conducting comprehensive quality analysis and testing of web interfaces to ensure high standards of functionality, reliability, and user satisfaction, employing a meticulous approach to problem-solving and quality assurance.",
+    ],
+
   },
   {
     title: "Software Engineer",
