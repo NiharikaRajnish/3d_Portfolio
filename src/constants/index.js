@@ -21,8 +21,9 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
-    threejs,
+  tripguide,
+    download,
+    threejs
   } from "../assets";
   
   export const navLinks = [
@@ -128,6 +129,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
   {
     title: "Full Stack Developer",
     company_name: "KPM Power",
@@ -232,6 +234,25 @@ const experiences = [
       ],
       image: carrent,
       source_code_link: "https://github.com/LePa-YU/d3_graph",
+    },
+    {
+            name: "Blackjack Game",
+      description:
+        "A simple console-based Blackjack game built using C# and the .NET framework. This game simulates a game of Blackjack between a player and the dealer, where the goal is to get as close to 21 as possible without going over.",
+      tags: [
+        {
+          name: "C#",
+          color: "blue-text-gradient",
+        },
+        {
+          name: ".NET",
+          color: "green-text-gradient",
+        },
+
+      ],
+      image: download,
+      source_code_link: "https://github.com/NiharikaRajnish/BlackJack-Game",
+
     },
     {
       name: "Style House E-Commerce",
