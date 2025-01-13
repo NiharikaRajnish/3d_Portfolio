@@ -22,7 +22,8 @@ import {
     carrent,
     jobit,
   tripguide,
-    download,
+  download,
+    email,
     threejs
   } from "../assets";
   
@@ -234,6 +235,27 @@ const experiences = [
       ],
       image: carrent,
       source_code_link: "https://github.com/LePa-YU/d3_graph",
+    },
+    {
+      name: " AI Cold Email Generator",
+      description:
+        "A cold email generator for a services company, built with Llama3.1, LangChain, and Streamlit. Users can input the URL of a company's careers page, and the tool extracts job listings from the page. It then creates personalized cold emails tailored to each job description, including relevant portfolio links retrieved from a vector database.",
+      tags: [
+        {
+          name: "Llama3.1",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GENAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: email,
+      source_code_link: "https://github.com/NiharikaRajnish/Cold-Email-AI",
     },
     {
             name: "Blackjack Game",
