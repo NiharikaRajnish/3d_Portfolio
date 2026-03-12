@@ -16,7 +16,8 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+  starbucks,
+  rival,
     tesla,
     shopify,
     carrent,
@@ -118,11 +119,24 @@ import {
   
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "Rival Insurance Technology",
+    icon: rival,
+    iconBg: "#0000",
+    date: "February 2025 – Current",
+    points: [
+      "Develop and maintain cloud-native full-stack applications supporting broker management, underwriting workflows, quoting systems, and policy lifecycle platforms within a modern InsurTech ecosystem.",
+      "Build modern web interfaces and backend services that support AI-driven insights, automation, and data-centric decision support for insurance workflows.",
+      "Design and implement scalable APIs and data services enabling real-time integration between brokers, carriers, and third-party insurance platforms to streamline digital insurance operations.",
+      "Improve system performance and reliability by implementing modern development practices, modular architecture, and scalable microservice-style components.",
+    ],
+  },
+  {
     title: "React.js Developer",
     company_name: "Practices in Enabling Technologies (PiET) Lab.",
     icon: starbucks,
     iconBg: "#0000",
-    date: "Sep 2022 - Present",
+    date: "Sep 2022 - February 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
